@@ -67,7 +67,7 @@ export default function Update(){
         // alert(data);
         if (validateForm()) {
             
-            let urladd= "https://feedback-backend-5ni4.vercel.app/change";
+            let urladd= "https://feedback-backend-pn9s.vercel.app/change";
             let data={name,email,feedback};
             axios.put(urladd, data)
             .then(res => {
