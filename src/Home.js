@@ -7,7 +7,7 @@ export default function Home(){
     useEffect(() => {
         const fetchData = async () => {
           try {
-            const response = await axios.get("https://feedback-backend-5ni4.vercel.app/read");
+            const response = await axios.get("https://feedback-backend-pn9s.vercel.app/read");
             setData(response.data);
             console.log(response.data);
           } catch (error) {
@@ -18,7 +18,7 @@ export default function Home(){
         fetchData();
       }, []);
       const deleteStudent=(email)=>{
-       let urladd="https://feedback-backend-5ni4.vercel.app/remove"
+       let urladd="https://feedback-backend-pn9s.vercel.app/remove"
        let data={data:{email}};
        axios.delete(urladd,data)
        .then(res=>{
