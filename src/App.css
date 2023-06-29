@@ -1,0 +1,14 @@
+*{
+  font-size: 35px;
+}
+body{
+  background-color: aqua;
+}
+.nav{
+  background-color: black;
+}
+.nav a{
+  color: antiquewhite;
+  text-decoration: none;
+  margin: 10%;
+}
