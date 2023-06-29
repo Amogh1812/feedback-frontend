@@ -60,7 +60,7 @@ export default function Create() {
     event.preventDefault();
 
     if (validateForm()) {
-      let urladd = "https://feedback-backend-5ni4.vercel.app/create";
+      let urladd = "https://feedback-backend-pn9s.vercel.app/create";
       let data = { name, email, feedback };
       axios
         .post(urladd, data)
